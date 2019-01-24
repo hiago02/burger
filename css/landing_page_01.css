@@ -1,0 +1,206 @@
+body{
+	width: 1200px;
+	margin: auto;
+	font-family: "Arial", sans-serif;
+}
+
+.cabecalho{
+	width: 100%;
+	height: 600px;
+	background-color: #000000;
+	color: #ffffff;
+	position: relative;
+}
+
+.titulo_prncipal{
+	font-size: 50pt;
+	position: absolute;
+	left: 5%;
+	top: 4%;
+}
+
+.titulo_prncipal:hover{
+	font-size: 51pt;
+	color: #E0FFFF;
+	text-shadow: .8px 1px #E0FFFF;
+	transition: .5s;
+}
+
+/*Menu de navgação*/
+
+.menu{
+	position: absolute;
+	right: 30pt;
+	top: 30pt;
+}
+
+.menu ul li{
+	display: inline-block;
+	padding: 5pt;
+	font-size: 17pt;
+}
+
+.menu ul li:hover{
+	text-shadow: 1px 1px;
+	font-size: 18pt;
+	transition: .5s;
+	color: #E0FFFF;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #ffffff
+}
+
+.text_cabecalho{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	width: 45%;
+	font-size: 15pt;
+	float: left;
+	text-align: justify;
+}
+
+.img_cabecalho{
+	float: right;
+	width: 100%;
+	height: 600px;
+}
+
+/*Fim do abeçalho*/
+
+/*imagem 01*/
+
+.corpo{
+	background-color: #000000;
+	padding: 20pt;
+	position: relative;
+	height: 380px;
+}
+
+.corpo img{
+	margin: 20pt;
+}
+
+.corpo h2{
+	position: absolute;
+	width: 45%;
+	right: 5%;
+	top: 10%;
+	color: #ffffff;
+	font-size: 30pt;
+	line-height: 40pt;
+}
+
+.corpo p{
+	position: absolute;
+	width: 45%;
+	right: 5%;
+	top: 30%;
+	color: #ffffff;
+	font-size: 15pt;
+	line-height: 25pt;
+}
+
+/*imagem 02*/
+
+.corpo_01{
+	background-color: #000000;
+	padding: 20pt;
+	position: relative;
+	height: 380px;
+}
+
+.corpo_01 img{
+	margin: 20pt;
+	float: right;
+}
+
+.corpo_01 h2{
+	color: #ffffff;
+	font-size: 30pt;
+	line-height: 40pt;
+	position: absolute;
+	width: 45%;
+	left: 5%;
+	top: 10%;
+}
+
+.corpo_01 p{
+	position: absolute;
+	width: 45%;
+	left: 5%;
+	top: 30%;
+	color: #ffffff;
+	font-size: 15pt;
+	line-height: 25pt;
+}
+
+
+/*imagem 03*/
+
+.corpo_02{
+	background-color: #000000;
+	padding: 20pt;
+	position: relative;
+	height: 690px;
+}
+
+.corpo_02 img{
+	margin: 20pt;
+}
+
+.corpo_02 h2{
+	position: absolute;
+	width: 45%;
+	right: 5%;
+	top: 10%;
+	color: #ffffff;
+	font-size: 30pt;
+	line-height: 40pt;
+}
+
+.corpo_02 p{
+	position: absolute;
+	width: 45%;
+	right: 5%;
+	top: 30%;
+	color: #ffffff;
+	font-size: 15pt;
+	line-height: 25pt;
+}
+
+/*imagem 03*/
+
+.corpo_03{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../fotos/foto_04.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.hide{
+	color: #ffffff;
+	padding: 30pt;
+
+}
+
+.corpo_03 h2{
+	font-size: 40pt;
+	line-height: 40pt;
+}
+
+.corpo_03 p{
+	font-size: 15pt;
+	line-height: 25pt;
+	
+}
+
+
+
+
